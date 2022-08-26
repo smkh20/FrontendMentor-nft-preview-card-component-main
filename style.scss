@@ -1,0 +1,9 @@
+@use "sass:meta";
+$font: "Outfit", sans-serif;
+:root{
+    --font:#{meta.inspect($font)};
+}
+body{
+    font-family: var(--font);
+    font-size: 18px;
+}
