@@ -1,10 +1,21 @@
-@use "sass:meta";
 @use "reset";
-$font: "Outfit", sans-serif;
 :root {
-  --font: #{meta.inspect($font)};
+  --font: "Outfit", sans-serif;
+  --colorSoftBlue: hsl(215, 51%, 70%);
+  --colorCyan: hsl(178, 100%, 50%);
+  --colorMainBG: hsl(217, 54%, 11%);
+  --colorCardBG: hsl(216, 50%, 16%);
+  --colorVeryDarkBlue: hsl(215, 32%, 27%);
+  --colorWhite: hsl(0, 0%, 100%);
 }
+$font: var(--font);
+$colorSoftBlue: var(--colorSoftBlue);
+$colorCyan: var(--colorCyan);
+$colorMainBG: var(--colorMainBG);
+$colorCardBG: var(--colorCardBG);
+$colorVeryDarkBlue: var(--colorVeryDarkBlue);
+$colorWhite: var(--colorWhite);
 body {
-  font-family: var(--font);
+  font-family: $font;
   font-size: 18px;
 }

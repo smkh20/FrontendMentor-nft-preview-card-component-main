@@ -6,6 +6,12 @@
 
 :root {
   --font: "Outfit", sans-serif;
+  --colorSoftBlue: hsl(215, 51%, 70%);
+  --colorCyan: hsl(178, 100%, 50%);
+  --colorMainBG: hsl(217, 54%, 11%);
+  --colorCardBG: hsl(216, 50%, 16%);
+  --colorVeryDarkBlue: hsl(215, 32%, 27%);
+  --colorWhite: hsl(0, 0%, 100%);
 }
 
 body {
