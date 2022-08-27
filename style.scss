@@ -16,6 +16,11 @@ $colorWhite: var(--colorWhite);
   --colorWhite: hsl(0, 0%, 100%);
 }
 body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: $font;
   font-size: 18px;
+  height: 100vh;
+  background-color: $colorMainBG;
 }

@@ -15,8 +15,13 @@
 }
 
 body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: var(--font);
   font-size: 18px;
+  height: 100vh;
+  background-color: var(--colorMainBG);
 }
 
 /*# sourceMappingURL=style.css.map */
