@@ -1,4 +1,11 @@
 @use "reset";
+$font: var(--font);
+$colorSoftBlue: var(--colorSoftBlue);
+$colorCyan: var(--colorCyan);
+$colorMainBG: var(--colorMainBG);
+$colorCardBG: var(--colorCardBG);
+$colorVeryDarkBlue: var(--colorVeryDarkBlue);
+$colorWhite: var(--colorWhite);
 :root {
   --font: "Outfit", sans-serif;
   --colorSoftBlue: hsl(215, 51%, 70%);
@@ -8,13 +15,6 @@
   --colorVeryDarkBlue: hsl(215, 32%, 27%);
   --colorWhite: hsl(0, 0%, 100%);
 }
-$font: var(--font);
-$colorSoftBlue: var(--colorSoftBlue);
-$colorCyan: var(--colorCyan);
-$colorMainBG: var(--colorMainBG);
-$colorCardBG: var(--colorCardBG);
-$colorVeryDarkBlue: var(--colorVeryDarkBlue);
-$colorWhite: var(--colorWhite);
 body {
   font-family: $font;
   font-size: 18px;
