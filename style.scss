@@ -49,6 +49,7 @@ body {
   background: url("images/image-equilibrium.jpg") no-repeat;
   background-size: cover;
   position: relative;
+  overflow: hidden;
   &:hover {
     cursor: pointer;
     .view {
