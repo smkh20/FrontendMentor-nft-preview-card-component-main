@@ -24,4 +24,14 @@ body {
   background-color: var(--colorMainBG);
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 375px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: var(--colorCardBG);
+}
+
 /*# sourceMappingURL=style.css.map */
