@@ -29,11 +29,14 @@ body {
   flex-direction: column;
   justify-content: space-between;
   width: 375px;
+  height: 600px;
   padding: 25px;
   border-radius: 15px;
   background-color: $colorCardBG;
   h1 {
     color: $colorWhite;
+    font-size: 25px;
+    font-weight: 600;
   }
 }
 .equilibriumImg {
@@ -51,8 +54,28 @@ body {
   display: flex;
   align-items: center;
   p {
-    margin-left: 10px;
+    margin-left: 6px;
   }
 }
-.cost{color: $colorCyan;}
-.day{color: $colorVeryDarkBlue;}
+.cost {
+  color: $colorCyan;
+}
+.day {
+  color: $colorVeryDarkBlue;
+}
+.line {
+  height: 1px;
+  background-color: $colorVeryDarkBlue;
+}
+.avatar {
+  width: 35px;
+  height: 35px;
+  border: 1px solid $colorWhite;
+  border-radius: 50%;
+}
+.name {
+  color: $colorVeryDarkBlue;
+  span {
+    color: $colorWhite;
+  }
+}
