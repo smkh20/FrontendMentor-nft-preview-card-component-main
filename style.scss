@@ -15,6 +15,10 @@ $colorWhite: var(--colorWhite);
   --colorVeryDarkBlue: hsl(215, 32%, 27%);
   --colorWhite: hsl(0, 0%, 100%);
 }
+%cyanhover {
+  cursor: pointer;
+  color: $colorCyan;
+}
 body {
   display: flex;
   justify-content: center;
@@ -37,6 +41,9 @@ body {
     color: $colorWhite;
     font-size: 25px;
     font-weight: 600;
+    &:hover {
+      @extend %cyanhover
+    }
   }
 }
 .equilibriumImg {
@@ -105,5 +112,8 @@ body {
   color: $colorVeryDarkBlue;
   span {
     color: $colorWhite;
+    &:hover{
+      @extend %cyanhover
+    }
   }
 }
