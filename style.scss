@@ -20,7 +20,7 @@ body {
   justify-content: center;
   align-items: center;
   font-family: $font;
-  font-size: 13px;
+  font-size: 18px;
   height: 100vh;
   background-color: $colorMainBG;
 }
@@ -34,6 +34,9 @@ body {
   background-color: $colorCardBG;
   h1 {
     color: $colorWhite;
+  }
+  p {
+    color: $colorVeryDarkBlue;
   }
 }
 .equilibriumImg {

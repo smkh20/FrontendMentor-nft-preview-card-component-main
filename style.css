@@ -19,7 +19,7 @@ body {
   justify-content: center;
   align-items: center;
   font-family: var(--font);
-  font-size: 13px;
+  font-size: 18px;
   height: 100vh;
   background-color: var(--colorMainBG);
 }
@@ -35,6 +35,9 @@ body {
 }
 .container h1 {
   color: var(--colorWhite);
+}
+.container p {
+  color: var(--colorVeryDarkBlue);
 }
 
 .equilibriumImg {
