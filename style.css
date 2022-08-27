@@ -36,13 +36,35 @@ body {
 .container h1 {
   color: var(--colorWhite);
 }
-.container p {
-  color: var(--colorVeryDarkBlue);
-}
 
 .equilibriumImg {
   max-width: 100%;
   border-radius: 10px;
+}
+
+.subTitle {
+  color: var(--colorVeryDarkBlue);
+}
+
+.IconsContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.IconContainer {
+  display: flex;
+  align-items: center;
+}
+.IconContainer p {
+  margin-left: 10px;
+}
+
+.cost {
+  color: var(--colorCyan);
+}
+
+.day {
+  color: var(--colorVeryDarkBlue);
 }
 
 /*# sourceMappingURL=style.css.map */

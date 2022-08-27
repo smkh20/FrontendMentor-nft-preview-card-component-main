@@ -35,11 +35,24 @@ body {
   h1 {
     color: $colorWhite;
   }
-  p {
-    color: $colorVeryDarkBlue;
-  }
 }
 .equilibriumImg {
   max-width: 100%;
   border-radius: 10px;
 }
+.subTitle {
+  color: $colorVeryDarkBlue;
+}
+.IconsContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.IconContainer {
+  display: flex;
+  align-items: center;
+  p {
+    margin-left: 10px;
+  }
+}
+.cost{color: $colorCyan;}
+.day{color: $colorVeryDarkBlue;}
