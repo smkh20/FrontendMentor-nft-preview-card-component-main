@@ -20,7 +20,7 @@ body {
   justify-content: center;
   align-items: center;
   font-family: $font;
-  font-size: 18px;
+  font-size: 13px;
   height: 100vh;
   background-color: $colorMainBG;
 }
@@ -32,8 +32,11 @@ body {
   padding: 25px;
   border-radius: 15px;
   background-color: $colorCardBG;
+  h1 {
+    color: $colorWhite;
+  }
 }
-.equilibriumImg{
+.equilibriumImg {
   max-width: 100%;
   border-radius: 10px;
 }

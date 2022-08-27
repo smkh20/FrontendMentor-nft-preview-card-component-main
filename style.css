@@ -19,7 +19,7 @@ body {
   justify-content: center;
   align-items: center;
   font-family: var(--font);
-  font-size: 18px;
+  font-size: 13px;
   height: 100vh;
   background-color: var(--colorMainBG);
 }
@@ -32,6 +32,9 @@ body {
   padding: 25px;
   border-radius: 15px;
   background-color: var(--colorCardBG);
+}
+.container h1 {
+  color: var(--colorWhite);
 }
 
 .equilibriumImg {
